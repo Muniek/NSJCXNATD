@@ -42,10 +42,10 @@ namespace NSJC_TD
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            Minion monster1 = new Minion();
-            Minion monster2 = new Minion();
-            Minion monster3 = new Minion();
-            Minion monster4 = new Minion();
+            Minion monster1 = new Minion(1);
+            Minion monster2 = new Minion(2);
+            Minion monster3 = new Minion(3);
+            Minion monster4 = new Minion(4);
 
             
             listGameObjects.Add(monster1);

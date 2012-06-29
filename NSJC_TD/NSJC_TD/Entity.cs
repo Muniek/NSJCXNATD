@@ -7,6 +7,7 @@ namespace NSJC_TD
 {
     abstract class Entity:GameObject
     {
+        protected int type;
         abstract public void Draw();
     }
 }
