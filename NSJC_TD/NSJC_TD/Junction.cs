@@ -8,7 +8,7 @@ namespace NSJC_TD
     class Junction:GameObject
     {
         public override void Update()
-        { 
+        {
         }
     }
 }

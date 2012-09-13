@@ -9,9 +9,10 @@ namespace NSJC_TD
     {
         abstract public void Update();
 
-        struct Position
+        public struct Position
         {
             public int x, y, z;
         }
+        protected Position position;
     }
 }
