@@ -92,6 +92,8 @@ namespace NSJC_TD
             foreach (GameObject gameObject in listGameObjects)
             {
                 gameObject.Update();
+                System.Diagnostics.Debug.WriteLine("x"+gameObject.position.x);
+                System.Diagnostics.Debug.WriteLine("y"+gameObject.position.y);
             }
             base.Update(gameTime);
         }

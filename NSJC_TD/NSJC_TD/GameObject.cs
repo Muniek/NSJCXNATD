@@ -13,6 +13,6 @@ namespace NSJC_TD
         {
             public double x, y, z;
         }
-        protected Position position;
+        public Position position;   //PO ZAKOÑCZENIU TESTÓW DO POPRAWY - MA BYÆ PROTECTED
     }
 }

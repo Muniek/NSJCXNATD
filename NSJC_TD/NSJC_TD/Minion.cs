@@ -29,14 +29,15 @@ namespace NSJC_TD
                 Drawer = new Drawer1();
 
             speed = 1;
-            directionAngle = 0;
+            directionAngle = 0.385;
             position.x = 0;
             position.y = 0;
             position.z = 0;
         }
         public override void Update()
         {
-            position.x+=speed*(Math.Cos(directionAngle));
+            position.x+=speed*Math.Cos(directionAngle);
+            position.y+=speed *Math.Sin(directionAngle);
         }
         public override void Draw()
         {
