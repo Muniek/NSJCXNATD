@@ -11,7 +11,7 @@ namespace NSJC_TD
 
         public struct Position
         {
-            public int x, y, z;
+            public double x, y, z;
         }
         protected Position position;
     }

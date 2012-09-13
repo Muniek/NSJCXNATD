@@ -28,7 +28,7 @@ namespace NSJC_TD
             if (type == 1)
                 Drawer = new Drawer1();
 
-            speed = 0.01;
+            speed = 1;
             directionAngle = 0;
             position.x = 0;
             position.y = 0;
@@ -36,7 +36,7 @@ namespace NSJC_TD
         }
         public override void Update()
         {
-
+            position.x+=speed*(Math.Cos(directionAngle));
         }
         public override void Draw()
         {
