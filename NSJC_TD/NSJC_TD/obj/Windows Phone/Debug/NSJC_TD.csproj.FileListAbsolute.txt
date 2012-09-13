@@ -21,9 +21,3 @@ D:\prog\XNA\wp7_game\NSJCXNATD\NSJC_TD\NSJC_TD\obj\Windows Phone\Debug\WMAppMani
 D:\prog\XNA\wp7_game\NSJCXNATD\NSJC_TD\NSJC_TD\obj\Windows Phone\Debug\WMAppManifest.xml
 D:\prog\XNA\wp7_game\NSJCXNATD\NSJC_TD\NSJC_TD\bin\Windows Phone\Debug\NSJC_TD.xap
 D:\prog\XNA\wp7_game\NSJCXNATD\NSJC_TD\NSJC_TD\obj\Windows Phone\Debug\XapCacheFile.xml
-D:\prog\XNA\wp7_game\NSJCXNATD\NSJC_TD\NSJC_TD\bin\Windows Phone\Debug\NSJC_TD.xap
-D:\prog\XNA\wp7_game\NSJCXNATD\NSJC_TD\NSJC_TD\obj\Windows Phone\Debug\XapCacheFile.xml
-D:\prog\XNA\wp7_game\NSJCXNATD\NSJC_TD\NSJC_TD\bin\Windows Phone\Debug\AppManifest.xaml
-D:\prog\XNA\wp7_game\NSJCXNATD\NSJC_TD\NSJC_TD\obj\Windows Phone\Debug\WMAppManifest.xml.g
-D:\prog\XNA\wp7_game\NSJCXNATD\NSJC_TD\NSJC_TD\obj\Windows Phone\Debug\WMAppManifest.xml
-bin\Windows Phone\Debug\GameThumbnail.png
