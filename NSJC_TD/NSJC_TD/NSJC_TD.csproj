@@ -87,6 +87,7 @@
   <ItemGroup>
     <Compile Include="Entity.cs" />
     <Compile Include="GameObject.cs" />
+    <Compile Include="Junction.cs" />
     <Compile Include="Minion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <None Include="Properties\AppManifest.xml">
@@ -107,8 +108,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\NSJC_TDContent\NSJC_TDContent.contentproj">
-      <Name>NSJC_TDContent</Name>
+      <Name>NSJC_TDContent %28Content%29</Name>
       <XnaReferenceType>Content</XnaReferenceType>
+      <Project>{DBC980EB-912B-4DEA-B9C1-CEAE1D091581}</Project>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

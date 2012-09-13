@@ -7,10 +7,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>D:\prog\XNA\NSJC_TD\NSJC_TD\NSJC_TDContent\</RootDirectory>
-      <LoggerRootDirectory>D:\prog\XNA\NSJC_TD\NSJC_TD\NSJC_TD\</LoggerRootDirectory>
-      <IntermediateDirectory>D:\prog\XNA\NSJC_TD\NSJC_TD\NSJC_TDContent\obj\Windows Phone\Debug\</IntermediateDirectory>
-      <OutputDirectory>D:\prog\XNA\NSJC_TD\NSJC_TD\NSJC_TD\bin\Windows Phone\Debug\Content\</OutputDirectory>
+      <RootDirectory>D:\prog\XNA\wp7_game\NSJCXNATD\NSJC_TD\NSJC_TDContent\</RootDirectory>
+      <LoggerRootDirectory>D:\prog\XNA\wp7_game\NSJCXNATD\NSJC_TD\NSJC_TD\</LoggerRootDirectory>
+      <IntermediateDirectory>D:\prog\XNA\wp7_game\NSJCXNATD\NSJC_TD\NSJC_TDContent\obj\Windows Phone\Debug\</IntermediateDirectory>
+      <OutputDirectory>D:\prog\XNA\wp7_game\NSJCXNATD\NSJC_TD\NSJC_TD\bin\Windows Phone\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

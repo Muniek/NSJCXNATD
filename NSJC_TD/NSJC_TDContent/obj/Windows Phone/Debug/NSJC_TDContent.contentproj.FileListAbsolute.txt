@@ -1,1 +1,2 @@
 D:\prog\XNA\NSJC_TD\NSJC_TD\NSJC_TDContent\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+D:\prog\XNA\wp7_game\NSJCXNATD\NSJC_TD\NSJC_TDContent\obj\Windows Phone\Debug\ResolveAssemblyReference.cache

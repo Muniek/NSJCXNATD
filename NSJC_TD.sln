@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSJC_TD", "NSJC_TD\NSJC_TD\NSJC_TD.csproj", "{5C8FF6AA-D028-47AF-89CF-1D6C2C27A2A2}"
 EndProject
-Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "NSJC_TDContent", "NSJC_TD\NSJC_TDContent\NSJC_TDContent.contentproj", "{DBC980EB-912B-4DEA-B9C1-CEAE1D091581}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSJC_TDContent", "NSJC_TD\NSJC_TDContent\NSJC_TDContent.contentproj", "{DBC980EB-912B-4DEA-B9C1-CEAE1D091581}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementy rozwiązania", "Elementy rozwiązania", "{437D1DF8-0E30-47D9-9014-7374A7B9B8C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
