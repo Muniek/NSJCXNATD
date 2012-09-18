@@ -23,7 +23,8 @@ namespace NSJC_TD
         SpriteBatch spriteBatch;
 
         List<GameObject> listGameObjects = new List<GameObject>();
-        List<Junction> listJunctions = new List<Junction>();
+        //List<Junction> listJunctions = new List<Junction>();
+        List<Minion> listMinions = new List<Minion>();
 
         public Game1()
         {
@@ -43,10 +44,9 @@ namespace NSJC_TD
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            Minion monster1 = new Minion(1, listJunctions);
-            Junction junction1 = new Junction();
-
-            listJunctions.Add(junction1);
+            Minion monster1 = new Minion(1);
+            listMinions.Add(monster1);
+            Junction junction1 = new Junction(1.570796, listMinions); //sprawdziæ czy przekazywana jest lista jako wartoœæ czy wskaŸnik na listê (powinien byæ wskaŸnik)
 
             listGameObjects.Add(monster1);
             listGameObjects.Add(junction1);
