@@ -11,8 +11,9 @@ namespace NSJC_TD
 
         public struct Position
         {
-            public double x, y, z;
+            public double x, y, z;// { get; set; }
         }
-        public Position position;   //PO ZAKOÑCZENIU TESTÓW DO POPRAWY - MA BYÆ PROTECTED
+        public Position position;// { get; set; }   //PO ZAKOÑCZENIU TESTÓW DO POPRAWY - MA BYÆ PROTECTED
+        public double Radius { get; set; }
     }
 }

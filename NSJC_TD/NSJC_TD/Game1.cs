@@ -23,6 +23,7 @@ namespace NSJC_TD
         SpriteBatch spriteBatch;
 
         List<GameObject> listGameObjects = new List<GameObject>();
+        List<Junction> listJunctions = new List<Junction>();
 
         public Game1()
         {
@@ -42,16 +43,13 @@ namespace NSJC_TD
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            Minion monster1 = new Minion(1);
-            Minion monster2 = new Minion(2);
-            Minion monster3 = new Minion(3);
-            Minion monster4 = new Minion(4);
+            Minion monster1 = new Minion(1, listJunctions);
+            Junction junction1 = new Junction();
 
-            
+            listJunctions.Add(junction1);
+
             listGameObjects.Add(monster1);
-            listGameObjects.Add(monster2);
-            listGameObjects.Add(monster3);
-            listGameObjects.Add(monster4);
+            listGameObjects.Add(junction1);
 
             base.Initialize();
         }
@@ -92,8 +90,8 @@ namespace NSJC_TD
             foreach (GameObject gameObject in listGameObjects)
             {
                 gameObject.Update();
-                System.Diagnostics.Debug.WriteLine("x"+gameObject.position.x);
-                System.Diagnostics.Debug.WriteLine("y"+gameObject.position.y);
+              //  System.Diagnostics.Debug.WriteLine("x"+gameObject.position.x);
+              //  System.Diagnostics.Debug.WriteLine("y"+gameObject.position.y);
             }
             base.Update(gameTime);
         }
